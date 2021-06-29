@@ -1,0 +1,65 @@
+.menu {
+    top: 15px;
+    color: red;
+    list-style: none;
+    z-index: 99;
+    position: fixed;
+    text-shadow: 2px 2px lightgrey;
+    background-color: greenyellow;
+}
+
+.link {
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+}
+
+#home {
+    background: linear-gradient(90deg, rgba(255, 220, 0, 1) 20%, rgba(0, 255, 50, 1) 80%);
+    z-index: 1;
+    padding-bottom: 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+
+.menu a {
+    display: block;
+
+}
+
+#quote {
+    height: 1000px;
+    width: 900px;
+    margin-top: 100px;
+    border: 5px groove orange;
+}
+
+#grid {
+    height: 550px;
+    background: linear-gradient(90deg, rgba(123, 0, 255, 1) 30%, rgba(0, 123, 255, 1) 70%);
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 20px;
+}
+
+.car_image {
+    width: 275px;
+    height: 200px;
+    border: 5px groove orange;
+}
+#slide {
+    background: linear-gradient(90deg, rgba(255,150,0,1) 30%, rgba(255,75,0,1) 50%, rgba(255,0,50,1) 70%);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -16px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.sliding_image {
+    width: 620px;
+    height: 400px;
+    border: 5px groove purple;  
+}
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <center>
+            <ul class="menu">
+                <li class="link"><a href="#home">Home</a></li>
+                <li class="link"><a href="#grid">Grid View</a></li>
+                <li class="link"><a href="#slide">Slide View</a></li>
+            </ul>
+            <section id="home">
+
+                <img id="quote" src="Car%20Quote.jpg">
+
+            </section>
+            <section id="grid">
+
+                <h1>Grid View</h1>
+                <span>
+
+                    <img class="car_image" src="Mclaren%20Speedtail.jpg">
+                    <img class="car_image" src="Ferrari%20SF90%20Stradale.jpg">
+                    <img class="car_image" src="SSC%20Tuatara.jpg">
+                    <img class="car_image" src="Koenigsegg%20One%201.jpg">
+
+                </span>
+                <br>
+                <br>
+                <span>
+
+                    <img class="car_image" src="Mclaren%20F1.jpg">
+                    <img class="car_image" src="Ferrari%20F40.jpg">
+                    <img class="car_image" src="Buggatti%20Chiron%20Super%20Sport%20300+.jpg">
+                    <img class="car_image" src="Lamborghini%20Huracan%20Performante.jpg">
+
+                </span>
+            </section>
+            <section id="slide">
+
+                <h1>Sliding Gallery</h1>
+                <div class="carousel slide " id="gallery">
+
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+
+                            <center>
+
+                                <img class="sliding_image" src="Mclaren%20Speedtail.jpg">
+                                <div class="carousel-content">
+
+                                    <p>Mclaren Speedtail</p>
+
+                                </div>
+                            </center>
+
+                        </div>
+
+                        <div class="item">
+
+                            <center>
+
+                                <img class="sliding_image" src="Ferrari%20SF90%20Stradale.jpg">
+                                <div class="carousel-content">
+
+                                    <p>Ferrari SF90 Stradale</p>
+
+                                </div>
+                            </center>
+                        </div>
+
+
+                    </div>
+
+                    <a href="#gallery" class="left carousel-control" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a href="#gallery" class="right carousel-control" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </section>
+        </center>
+    </div>
+
+</body>
+
+</html>
